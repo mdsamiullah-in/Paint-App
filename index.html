@@ -4,16 +4,21 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   </head>
   <body>
-   
     <div class="container">
+      <section class="sidebar">
+           <div id="img">
+            <img src="green logo.png" width="50px">
+           </div>
+          <a href="about-us.html" id="profile">Our Profile</a>
+          <a href="contact-us.html" id="contact">Contact Us</a>
+      </section>
       <section class="tools-board">
         <div class="row">
-          <button id="mybtn"><a href="about-us.html"> <i class="fa-solid fa-user" id="user"></i>&nbsp;&nbsp;Our Profile</a></button><br>
           <label class="title">Shapes</label>
           <ul class="options">
             <li class="option tool" id="rectangle">
@@ -68,9 +73,10 @@
         </div>
       </section>
       <section class="drawing-board">
-
         <canvas></canvas>
       </section>
+
+
     </div>
     
     <script src="script.js">
